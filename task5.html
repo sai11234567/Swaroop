@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Task-5</title>
+        <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1">
+        <title>Registration form</title>
+        <style>
+            div{
+                width  : 43%;
+                border : 1px solid black;
+                border-collapse: collapse;
+                margin-left : 400px;
+                margin-top : 1px;
+            }
+            .left{
+                width : 50%;
+                border : 1px solid black;
+                text-align : center;
+                font-weight : bold;
+            }
+            .right{
+                width : 50%;
+                border : 1px solid black;
+            }
+            .normal{
+                border : 1px solid black;
+            }
+            h2{
+                text-align : center;
+                margin-top : 100px;
+                font-weight: bold;
+                color : navy;
+            }
+            button{
+                margin-left : 700px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Registration form</h2>
+        <div>
+            <table id="table">
+                <tr>
+                    <td class="left">First Name</td>
+                    <td class="right"><input type="text" size="70"></td>
+                </tr>
+                <tr>
+                    <td class="left">Last Name</td>
+                    <td class="right"><input type="text" size="70"></td>
+                </tr>
+                <tr>
+                    <td class="left">Email</td>
+                    <td class="right"><input type="mail" size="70"></td>
+                </tr>
+                <tr>
+                    <td class="left">Password</td>
+                    <td class="right"><input type="password" size="70"></td>
+                </tr>
+                <tr>
+                    <td class="left">Re-Enter Password</td>
+                    <td class="right"><input type="password" size="70"></td>
+                </tr>
+                <tr>
+                    <td class="left" rowspan="2">Gender:</td>
+                    <td class="right"><input type="radio">Male</td>
+                </tr>
+                <tr>
+                    <td class="right"><input type="radio">Female</td>
+                </tr>
+                <tr>
+                    <td class="left">Age:</td>
+                    <td class="right"><input type="number" size="70"></td>
+                </tr>
+                <tr>
+                    <td class="left">Phone number</td>
+                    <td class="right"><input type="tel" size="70"></td>
+                </tr>
+                <tr>
+                    <td class="left" length="60px">Address</td>
+                    <td class="right"><textarea cols="65" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="left">state</td>
+                    <td class="right"><input type="text" size="70"></td>
+                </tr>
+                <tr>
+                    <td class="left">Country</td>
+                    <td class="right">
+                        <select>
+                        <option>Choose your Country</option>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>Japan</option>
+                        <option>Russia</option>
+                        <option>Taiwan</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td class="left">Languages Known</td>
+                    <td class="right"><input type="checkbox">Telugu<input type="checkbox">English<input type="checkbox">Hindi<input type="checkbox">Tamil</td>
+                </tr>
+            </table>
+            <table>
+                <tr style="border : 1px solid black;">
+                    <td style="border : 1px solid black; width : 647px;border-collapse : collapse;"><input type="checkbox" width="200px">HereBy I declare all the given details are true</td>
+                </tr>
+                <tr>
+                    <td align="right">Login to <a href="vtop.vitap.ac.in/vtop">Vtop </a>website</td>
+                </tr>
+            </table>
+        </div><br>
+        <button>Register</button>
+    </body>
+</html>
